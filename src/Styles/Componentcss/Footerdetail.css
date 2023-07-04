@@ -1,0 +1,270 @@
+.Footerdetail_Body {
+    width: 1200px;
+    height: 330px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Footerdetail_infodetail {
+    margin-top: 10px;
+}
+
+.Footerdetail_Address,
+.Footerdetail_Number,
+.Footerdetail_Email,
+.Footerdetail_Social {
+    margin-top: 15px;
+}
+
+.Footerdetail_Adds,
+.Footerdetail_Nums,
+.Footerdetail_Mails,
+.Footerdetail_Sociallogo {
+    height: 25px;
+    width: 100%;
+    color: #3c0e0e;
+    margin-left: 15px;
+}
+
+.Footerdetail_Addlogo,
+.Footerdetail_Numlogo,
+.Footerdetail_Maillogo,
+.Footerdetail_Sociallogo {
+    font-size: 23px;
+    color: #6e5d5d;
+}
+
+.Footerdetail_info {
+    width: 300px;
+    margin: auto;
+    /* padding-top: 35px; */
+    margin-top: 45px;
+}
+
+.Footerdetail_Quicklink,
+.Footerdetail_Services,
+.Footerdetail_Information {
+    width: 230px;
+    padding-left: 40px;
+    margin: auto;
+}
+
+.Footerdetail_Navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.Footerdetail_Quicklist,
+.Footerdetail_Serviceslist,
+.Footerdetail_Informationlist {
+    list-style: none;
+    padding: 0px;
+    margin-top: 33px;
+}
+
+.Footerdetail_list {
+    color: #3c0e0e;
+    margin-top: 13px;
+}
+
+.Footerdetail_list::before {
+    content: '\027A3';
+    padding-right: 10px;
+}
+
+.Footerdetail_list:hover {
+    color: #968282;
+}
+
+.Footerdetail_Social {
+    width: 220px;
+    height: 50px;
+    display: flex;
+}
+
+.Footerdetail_Sociallogo {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    color: #6e5d5d;
+    background-color: rgb(236, 228, 228);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+}
+
+.Footerdetail_Sociallogo:hover {
+    background-color: #9ea18e;
+    color: white;
+    cursor: pointer;
+}
+
+.Footerdetail_Mails:hover {
+    color: #968282;
+    cursor: pointer;
+}
+
+.Footerdetail_hide {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    .Footerdetail_Body {
+        width: 90%;
+    }
+
+    .Footerdetail_info {
+        width: 30%;
+    }
+
+    .Footerdetail_Quicklink,
+    .Footerdetail_Services,
+    .Footerdetail_Information {
+        width: 23%;
+    }
+
+    .Footerdetail_Address {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .Footerdetail_Number,
+    .Footerdetail_Email,
+    .Footerdetail_Social {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .Footerdetail_Quicklist {
+        margin-top: 25px;
+    }
+
+    .Footerdetail_infoHeading {
+        margin-top: 5px;
+    }
+
+    .Footerdetail_list {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Footerdetail_Body {
+        width: 93%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .Footerdetail_infodetail,
+    .Footerdetail_Quicklist,
+    .Footerdetail_Serviceslist,
+    .Footerdetail_Informationlist {
+        display: none;
+        margin: 0px;
+    }
+
+    .Footerdetail_info,
+    .Footerdetail_Quicklink,
+    .Footerdetail_Services,
+    .Footerdetail_Information {
+        width: 100%;
+        margin: 8px 0px;
+        padding: 0px;
+    }
+
+    .Footerdetail_flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Footerdetail_hide,
+    .flex_ones,
+    .flex_twos,
+    .flex_threes,
+    .flex_fours {
+        display: block;
+    }
+
+    .Footerdetail_Address,
+    .Footerdetail_Number,
+    .Footerdetail_Email,
+    .Footerdetail_Social {
+        margin: 3px 0px;
+    }
+
+    .Footerdetail_list {
+        margin: 10px 0px;
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Footerdetail_Body {
+        width: 90%;
+        height: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .Footerdetail_infodetail,
+    .Footerdetail_Quicklist,
+    .Footerdetail_Serviceslist,
+    .Footerdetail_Informationlist {
+        display: none;
+        margin: 0px;
+    }
+
+    .Footerdetail_info,
+    .Footerdetail_Quicklink,
+    .Footerdetail_Services,
+    .Footerdetail_Information {
+        width: 100%;
+        margin: 8px 0px;
+        padding: 0px;
+    }
+
+    .Footerdetail_flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Footerdetail_hide,
+    .flex_ones,
+    .flex_twos,
+    .flex_threes,
+    .flex_fours {
+        display: block;
+    }
+
+    .Footerdetail_Address,
+    .Footerdetail_Number,
+    .Footerdetail_Email,
+    .Footerdetail_Social {
+        margin: 3px 0px;
+    }
+
+    .Footerdetail_list {
+        margin: 10px 0px;
+    }
+
+    .Footerdetail_Adds,
+    .Footerdetail_Nums,
+    .Footerdetail_Mails,
+    .Footerdetail_list {
+        font-size: 14.5px;
+    }
+
+}

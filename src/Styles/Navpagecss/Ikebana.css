@@ -1,0 +1,20 @@
+.Ikebana_Body {
+    background-color: white;
+}
+
+.Ikebana_Maincontent {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.Ikebana_Filter,
+.Ikebana_Rated,
+.Ikebana_Vases {
+    margin-top: 30px;
+}
+
+.Ikebana_Rightcomponent {
+    width: 100%;
+}

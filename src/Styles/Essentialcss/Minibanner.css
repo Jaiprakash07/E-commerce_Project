@@ -1,0 +1,136 @@
+.Mini_Body {
+    width: 585px;
+    height: 252px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Mini_Backimg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-image: url(https://cdn.shopify.com/s/files/1/0644/4820/0925/files/cms-banner-1.jpg?v=1652437705); */
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    transition: linear transform 0.5s;
+}
+
+/* .Mini_Backimg img:hover {
+    transform: scale(1.05);
+} */
+
+.Mini_Body:hover .Mini_Backimg img {
+    transform: scale(1.05);
+}
+
+.Mini_Content {
+    width: 35%;
+    position: absolute;
+    z-index: 1;
+    top: 52px;
+    left: 60px;
+}
+
+.Mini_Discount h5 {
+    font-size: 19px;
+}
+
+.Mini_Name h2 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.Mini_Btn Button {
+    font-size: 15px;
+    text-decoration: underline;
+    border: none;
+    margin-top: 6px;
+    padding: 2px;
+}
+
+.Mini_Btn Button:hover {
+    text-decoration: none;
+    color: #9ea18e;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+    .Mini_Body {
+        width: 48%;
+        height: 240px;
+    }
+
+    .Mini_Discount h5{
+        font-size: 17px;
+    }
+
+    .Mini_Name h2 {
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Mini_Body {
+        width: 48.6%;
+        height: 190px;
+    }
+
+    .Mini_Content {
+        width: 60%;
+        top: 30px;
+        left: 50px;
+    }
+
+    .Mini_Discount h5 {
+        font-size: 17px;
+    }
+
+    .Mini_Name h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .Mini_Btn {
+        margin: -5px 0px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Mini_Body {
+        width: 100%;
+        height: 150px;
+    }
+
+    .Mini_Content {
+        width: 60%;
+        top: 13%;
+        left: 13%;
+    }
+
+    .Mini_Discount h5 {
+        font-size: 17px;
+        margin: 0px;
+    }
+
+    .Mini_Name h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 8px 0px;
+    }
+
+    .Mini_Btn {
+        margin: -13px -15px;
+    }
+
+}

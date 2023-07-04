@@ -1,0 +1,102 @@
+.Footerform_Body {
+    width: 1200px;
+    /* height: 265px; */
+    text-align: center;
+    margin: auto;
+    padding: 105px 0px;
+}
+
+.Footerform_Heading {
+    font-size: 28px;
+}
+
+.Footerform_Para {
+    color: #555;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.Footerform_Form {
+    width: 600px;
+    height: 47px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.Footerform_Input {
+
+    width: 78%;
+    height: 100%;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.Footerform_Button {
+    width: 22%;
+    height: 100%;
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+    color: #ffffff;
+    background-color: #9ea18e;
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.Footerform_Button:hover {
+    background-color: black;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+    .Footerform_Body {
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Footerform_Body {
+        width: 93%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Footerform_Body, 
+    .Footerform_Form {
+        width: 90%;        
+    }
+
+    .Footerform_Heading {
+        font-size: 23px;
+    }
+
+    .Footerform_Para {
+        line-height: 24px;
+    }
+
+    .Footerform_Form {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .Footerform_Input {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .Footerform_Button {
+        width: 40%;
+        border-radius: 5px;
+        margin: 20px auto;
+    }
+}

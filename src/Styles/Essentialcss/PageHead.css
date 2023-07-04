@@ -1,0 +1,56 @@
+.Page_Body {
+    width: 100%;
+    height: 205px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0644/4820/0925/files/bredcumb.jpg?v=1652506108);
+    /* object-fit: cover; */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0px;
+}
+
+.Page_heads,
+.Page_Links {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: .04rem;
+    margin: auto;
+    margin-top: 3px;
+}
+
+.Page_Links {
+    display: flex;
+    justify-content: center;
+    letter-spacing: .009rem;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+
+.Page_Navfirst:hover,
+.Page_Navsecond:hover,
+.Page_Navthird:hover,
+.Page_Navfourth:hover {
+    color: #9ea18e
+}
+
+.Page_Navfirst,
+.Page_Manmadeclass {
+    border-right: 1px solid #fff;
+}
+
+
+
+/* .Page_Navthird {
+    border-left: 1px solid #fff;
+} */
+
+.Page_Navfirst,
+.Page_Navsecond,
+.Page_Navthird,
+.Page_Navfourth {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 7px;
+}

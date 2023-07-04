@@ -1,0 +1,14 @@
+.buttonshop button {
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .buttonshop button {
+        width: 100px !important;
+        height: 34px !important;
+        font-size: 14px !important;
+    }
+}

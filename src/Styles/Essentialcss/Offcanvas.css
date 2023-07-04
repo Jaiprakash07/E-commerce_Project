@@ -1,0 +1,164 @@
+.Cart_Head {
+    width: 400px;
+    /* height: 100%; */
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: -28%;
+    z-index: 5;
+    transition: .3s ease-in-out;
+}
+
+.Shopping_Cart {
+    right: 0%;
+    cursor: pointer;
+}
+
+.Cart_OffHeading {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    font-size: 20px;
+    font-family: serif;
+    letter-spacing: .03em;
+}
+
+.Cart_Close {
+    display: block;
+    position: absolute;
+    top: -6px;
+    right: 22px;
+    font-size: 37px;
+    font-family: serif;
+    color: #857373;
+    /* margin: 5px 10px */
+}
+
+.Cart_hr {
+    margin-top: 46px;
+    margin-bottom: 0px;
+}
+
+.Cart_Manage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.Cart_Body {
+    width: 100%;
+    height: 73%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    /* overflow: auto; */
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.Cart_Flex {
+    display: flex;
+    padding: 20px;
+}
+
+.Cart_Checkout {
+    width: 100%;
+    height: 27%;
+    position: absolute;
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #f5f5f5;
+}
+
+.Cart_Checkout_Head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.Cart_Checkspans {
+    /* width: 150px; */
+    display: flex;
+    flex-direction: column;
+    padding: 15px 20px;
+}
+
+.Cart_Checktotal,
+.Cart_Checktotalvalue {
+    font-size: 14.4px;
+    font-weight: 500;
+    color: #1e1e1e;
+    letter-spacing: 0.02rem;
+}
+
+.Cart_Button {
+    width: 90%;
+    margin: auto;
+}
+
+.Cart_Viewcolor {
+    width: 100%;
+    font-size: 14.2px;
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-top: 11px;
+}
+
+.Cart_Viewcart {
+    color: #ffffff;
+    background-color: #9ea18e;
+}
+
+.Cart_Check_Out {
+    color: #ffffff;
+    background-color: #1e1e1e;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+    .Cart_Head {
+        width: 350px;
+        right: -40%;
+    }
+
+    .Shopping_Cart {
+        right: 0%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Cart_Head {
+        width: 300px;
+        right: -40%;
+    }
+
+    .Shopping_Cart {
+        right: 0%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Cart_Head {
+        width: 250px;
+        right: -85%;
+    }
+
+    .Shopping_Cart {
+        right: 0%;
+    }
+}

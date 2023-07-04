@@ -1,0 +1,83 @@
+.Secpro_Body {
+    width: 1200px;
+    margin: auto;
+    margin-top: 46px;
+    /* margin-bottom: 500px; */
+}
+
+.Secpro_Head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Secpro_Heading h4 {
+    font-size: 22px;
+}
+
+.Secpro_Button {
+    width: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Secpro_but button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.Secpro_but button:hover {
+    color: white;
+    background-color:#9ea18e;
+}
+
+.Secpro_List {
+    display: flex;
+    margin-top: 20px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    .Secpro_Body {
+        width: 90%;
+    }
+
+    .Secpro_List {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Secpro_Body {
+        width: 93%;
+    }
+
+    .Secpro_Button {
+        width: 11.2%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Secpro_Body {
+        width: 90%;
+    }
+
+    .Secpro_List {
+        width: 100%;
+    }
+
+    .Secpro_Button {
+        width: 80px;
+    }
+}
+

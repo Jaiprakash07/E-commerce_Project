@@ -1,0 +1,461 @@
+.centerSlide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color:#e0e0dc; */
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slide {
+    width: 1200px;
+    margin: auto;
+}
+
+.slidehead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideheading h5 {
+    font-size: 21px;
+}
+
+.slidebuttons {
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slidebtn1 button {
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    border: none;
+}
+
+.slidebtn1 button:hover {
+    color: white;
+    background-color: #9ea18e;
+}
+
+.slidebody {
+    display: flex;
+    /* justify-content: space-evenly; */
+    border: 1px solid #e0e0dc;
+    border-radius: 5px;
+    margin-top: 20px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.threeads {
+    width: 1200px;
+    height: 534px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.adss1 {
+    width: 585px;
+    height: 100%;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.adss2 {
+    width: 585px;
+    height: 100%;
+}
+
+.upper {
+    position: absolute;
+    z-index: 2;
+    top: 149px;
+    left: 55px;
+}
+
+.adss1 .imgknot {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.shopify.com/s/files/1/0644/4820/0925/files/sub-banner-1.jpg?v=1652434346');
+    border-radius: 8px;
+    /* z-index: -2; */
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out transform 0.7s;
+}
+
+/* 
+.adss1 .imgknot:hover {
+    transform: scale(1.05);
+    filter: blur(0px);
+} */
+
+.adss1:hover .imgknot {
+    transform: scale(1.05);
+    /* filter: blur(0px); */
+}
+
+.adss1 .upper div h4 {
+    font-size: 23px;
+}
+
+.adtwice1,
+.adtwice2 {
+    width: 585px;
+    height: 257px;
+    position: relative;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.adtwice1 .chairimg div h2,
+.adtwice2 .nordicimg div h2 {
+    font-weight: 400;
+}
+
+.adtwice1 .imgiconic {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.shopify.com/s/files/1/0644/4820/0925/files/sub-banner-2.jpg?v=1652434346');
+    /* border-radius: 10px; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: linear transform 0.5s;
+}
+
+
+
+.adtwice1:hover .imgiconic {
+    transform: scale(1.05);
+}
+
+.adtwice2 .imgspecial {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.shopify.com/s/files/1/0644/4820/0925/files/sub-banner-3.jpg?v=1652434346');
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    transition: linear transform 0.5s;
+}
+
+/* .adtwice2 .imgspecial:hover {
+    transform: scale(1.05);
+} */
+
+.adtwice2:hover .imgspecial {
+    transform: scale(1.05);
+}
+
+.upper {
+    width: 240px;
+}
+
+.upper div h1 {
+    font-weight: 400;
+}
+
+.imgcordbtn Button {
+    width: 123px;
+    height: 43px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #9ea18e;
+    border: none;
+    padding: 0px;
+    /* padding: 20px 10px 24px 10px; */
+    margin-top: 29px;
+}
+
+.imgcordbtn Button:hover {
+    color: rgb(235, 226, 226);
+    background-color: rgb(32, 32, 32);
+}
+
+.chairimg {
+    width: 180px;
+    position: absolute;
+    top: 51px;
+    left: 66px;
+    z-index: 3;
+}
+
+.chairimg div h5,
+.nordicimg div h5 {
+    font-size: 19px;
+}
+
+.chairimg div h2,
+.nordicimg div h2 {
+    font-size: 30px;
+}
+
+.nordicimg {
+    width: 200px;
+    position: absolute;
+    top: 51px;
+    left: 66px;
+    z-index: 1;
+}
+
+.chairbtn Button,
+.nordbtn Button {
+    text-decoration: underline;
+    font-size: 15px;
+    border: none;
+    padding: 0px;
+    margin: 10px 4px;
+}
+
+.chairbtn Button:hover,
+.nordbtn Button:hover {
+    text-decoration: none;
+    color: #9ea18e;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    .slide {
+        width: 90%;
+    }
+
+    .slidebodies {
+        padding: 19px 15px;
+    }
+
+    .threeads {
+        width: 90%;
+        height: 500px;
+    }
+
+    .adss1 {
+        width: 48%;
+        /* height: 500px; */
+    }
+
+    .adss2 {
+        width: 48%;
+    }
+
+    .adtwice1,
+    .adtwice2 {
+        width: 100%;
+        height: 240px;
+    }
+
+    .adss1 .upper div h4 {
+        font-size: 21px;
+    }
+
+    .upper div h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .imgcordbtn {
+        margin: -18px 0px;
+    }
+
+    .chairimg div h5,
+    .nordicimg div h5 {
+        font-size: 17px;
+    }
+
+    .adtwice1 .chairimg div h2,
+    .adtwice2 .nordicimg div h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .chairbtn,
+    .nordbtn {
+        margin: -4px 0px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .slide {
+        width: 93%;
+    }
+
+    .threeads {
+        width: 93%;
+        height: 400px;
+    }
+
+    .adss1,
+    .adss2 {
+        width: 48.6%;
+    }
+
+    .adss1 .imgknot {
+        background-position: 70% 20%;
+        background-size: cover;
+    }
+
+    .upper {
+        margin: -40px 0px;
+    }
+
+    .adtwice1,
+    .adtwice2 {
+        width: 100%;
+        height: 190px;
+    }
+
+    .adtwice1 .imgiconic, 
+    .adtwice2 .imgspecial {
+        background-position: 30% -30%;
+        background-size: cover;
+    }
+
+    .chairimg,
+    .nordicimg {
+        margin: -20px -10px;
+    }
+
+    .adss1 .upper div h4 {
+        font-size: 21px;
+    }
+
+    .imgcordbtn {
+        margin: -20px 0px;
+    }
+
+    .chairimg div h5,
+    .nordicimg div h5 {
+        font-size: 17px;
+    }
+
+    .adtwice1 .chairimg div h2,
+    .adtwice2 .nordicimg div h2  {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .chairbtn,
+    .nordbtn {
+        margin: -10px 0px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .centerSlide {
+        margin-bottom: 0px;
+    }
+
+    .slide {
+        width: 90%;
+        height: 100%;
+    }
+
+    .slidebuttons {
+        justify-content: end;
+    }
+
+    .slidebtn1 {
+        margin: 0px 2px;
+    }
+
+    .threeads {
+        width: 90%;
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .adss1 {
+        width: 100%;
+        height: 270px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    .upper {
+        top: 22%;
+        left: 12%;
+    }
+
+    .adss1 .upper div h4 {
+        font-size: 19px;
+    }
+
+    .adss1 .upper div h1 {
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 35px;
+    }
+
+    .imgcordbtn {
+        margin-top: -25px;
+    }
+
+    .adss2 {
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: 290px;
+        left: 0;
+        z-index: 2;
+    }
+
+    .chairimg,
+    .nordicimg {
+        top: 13%;
+        left: 13%;
+    }
+
+    .chairimg div h5,
+    .nordicimg div h5 {
+        font-size: 17px;
+        margin: 5px 0px;
+
+    }
+
+    .chairimg div h2,
+    .nordicimg div h2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0px;
+    }
+
+    .chairbtn,
+    .nordbtn { 
+        margin: -13px -20px;
+    }
+
+    .adtwice1,
+    .adtwice2 {
+        width: 100%;
+        height: 150px;
+    }
+
+    .adtwice1 .imgiconic {
+        height: 100%;
+    }
+
+    .adtwice2 .imgspecial {
+        height: 100%;
+    }
+}

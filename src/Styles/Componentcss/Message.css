@@ -1,0 +1,194 @@
+.parent {
+    width: 100%;
+    /* margin-top: -16px; */
+    padding: 0px;
+}
+
+.messparent {
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    background-color: #9ea18e;
+    text-align: center;
+    margin: 0px;
+    padding-top: 8px;
+}
+
+.messparent2 {
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: white;
+    /* opacity: 0.8; */
+    border-bottom: 1px solid rgb(241, 201, 201);
+    padding-top: 15px;
+    /* margin: 2px 0px; */
+}
+
+.callparent {
+    width: 50%;
+    cursor: pointer;
+    color: rgb(90, 71, 71);
+    margin: 0px 50px;
+}
+
+.navparent {
+    width: 50%;
+    display: grid;
+    justify-content: end;
+    margin: 0px 42px;
+}
+
+.unorderednav {
+    display: flex;
+}
+
+.unorderednav {
+    cursor: pointer;
+}
+
+.unorderednav .lis {
+    list-style: none;
+    padding-top: 5px;
+    margin: 0px 15px;
+}
+
+.navparent .unorderednav .lis a {
+    color: rgb(90, 71, 71);
+    text-decoration-line: none;
+}
+
+.navparent .unorderednav .lis a:hover {
+    color: #808177;
+    /* opacity: 0.7; */
+}
+
+.unorderednav .lishr {
+    color: rgb(94, 45, 45) !important;
+    background-color: red;
+    height: 15px;
+    padding: 0px;
+    margin-top: 3px;
+}
+
+.dropmessage svg {
+    font-size: 9px;
+    margin-bottom: 2px;
+    padding: 0px 2px;
+}
+
+.lis1 {
+    display: inline-block;
+    position: relative;
+}
+
+.messdrop {
+    width: 190px;
+    position: absolute;
+    display: none;
+    background-color: white !important;
+    border: 1px solid rgb(193, 248, 250);
+    z-index: 6;
+    right: 3px;
+    padding: 10px 10px;
+}
+
+.messdrop .mess2drop {
+    padding: 2px 2px;
+    margin: 7px 2px;
+}
+
+.lis11 {
+    display: block;
+}
+
+.messdropp {
+    display: block;
+    color: rgb(90, 71, 71);
+}
+
+.lis2 {
+    display: inline-block;
+    position: relative;
+}
+
+.messdrop2 {
+    width: 170px;
+    position: absolute;
+    display: none;
+    background-color: white !important;
+    border: 1px solid rgb(193, 248, 250);
+    z-index: 6;
+    right: 3px;
+    padding: 10px 10px;
+}
+
+.messdrop2 .messdrop3 {
+    padding: 2px 2px;
+    margin: 7px 2px;
+}
+
+.lis22 {
+    display: block;
+}
+
+.messdrop22 {
+    display: block;
+    color: rgb(90, 71, 71);
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+    .messparent2 {
+        width: 100%;
+    }
+
+    .callparent {
+        width: 50%;
+        margin: 0px 25px;
+    }
+
+    .navparent {
+        width: 50%;
+        margin: 0px 25px;
+    }
+
+    .unorderednav .lis {
+        margin: 0px 8px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .callparent {
+        width: 40%;
+        margin: 0px 20px;
+    }
+
+    .navparent {
+        margin: 0px 20px;
+    }
+
+    .unorderednav {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .unorderednav .lis {
+        margin: 0px 10px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .parent {
+        display: none;
+    }
+}

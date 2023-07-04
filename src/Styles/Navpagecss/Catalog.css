@@ -1,0 +1,20 @@
+.Catalog_Body {
+    background-color: white;
+}
+
+.Catalog_Maincontent {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.Catalog_Filter,
+.Catalog_Rated,
+.Catalog_Vases {
+    margin-top: 30px;
+}
+
+.Catalog_Rightcomponent {
+    width: 100%;
+}

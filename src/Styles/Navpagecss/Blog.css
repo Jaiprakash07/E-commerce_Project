@@ -1,0 +1,18 @@
+.Blog_Body {
+    background-color: white;
+}
+
+.Blog_Maincontent {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.Blog_Vases {
+    margin-top: 30px;
+}
+
+.Blog_Rightcomponent {
+    width: 100%;
+}

@@ -1,0 +1,252 @@
+.navbarparent {
+    width: 100%;
+}
+
+.navbarchild .li .active {
+    color: #797978;
+}
+
+.navbarchild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    margin-right: 54px;
+    cursor: pointer;
+}
+
+.navbarchild .li {
+    cursor: pointer;
+    list-style: none;
+    margin: 0px 19px;
+}
+
+.navbarchild .li a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+.navbarchild .li a:hover {
+    color: #797978;
+}
+
+.designhov {
+    /* display: inline-block; */
+    position: relative;
+}
+
+.ss {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    padding: 10px;
+    left: -30px;
+}
+
+.desflex {
+    width: 680px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(193, 248, 250);
+    padding: 10px 12px;
+    /* transition: height 4s ease-in-out; */
+}
+
+.desflex2 {
+    width: 140px;
+}
+
+.desflex2 li {
+    text-decoration: none;
+    margin: -12px;
+    margin-top: -2px;
+    padding: -5px;
+    padding-top: -5px;
+}
+
+.desflex2 li .linkss {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(102, 90, 90);
+    font-size: 15px;
+    list-style: none;
+}
+
+.lide {
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.desflex2 li .linkss1 {
+    color: rgb(46, 43, 43);
+}
+
+.desflex2 li:hover .linkss {
+    color: rgb(118, 163, 135);
+}
+
+.designhov:hover .ss {
+    display: block;
+}
+
+.listmore {
+    /* height: 30px; */
+    position: relative;
+}
+
+.seconddrop {
+    width: 200px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    z-index: 1;
+    border: 1px solid rgb(193, 248, 250);
+    padding: 7px 15px;
+    left: -20px;
+    top: 27px;
+}
+
+.seconddrop .listdro {
+    list-style: none;
+    margin: 5px;
+    padding: 3px 2px;
+}
+
+.seconddrop .listdro .linksss2 {
+    font-size: 16px;
+    color: rgb(75, 66, 66);
+    margin-left: -5px;
+}
+
+.listdro .linksss2:hover {
+    display: block;
+    color: rgb(124, 180, 146);   
+}
+
+.listmore:hover .seconddrop {
+    display: block;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+    .navbarparent {
+        width: 100%;
+        display: flex;
+        /* padding: 3.5% 0px; */
+        margin: 0px;
+        margin-top: 38px;
+    }
+
+    .navbarchild {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .navbarchild .li {
+        margin: 0px 14px;
+    }
+
+    .navbarchild .li a {
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .navbarparent {
+        width: 100%;
+        background-color: white;
+    }
+
+    .navbarchild {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbarchild .li {
+        margin-top: 5px;
+    }
+
+    .desflex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding:  0px;
+    }
+
+    .desflex2 li {
+        margin-top: -10px !important;
+    }
+
+    .listmore {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .seconddrop{
+        width: 100%;
+        left: 0px;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .navbarchild {
+        display: flex;
+        flex-direction: column;
+        /* margin-right: 20px; */
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbarchild .li {
+        margin: 5px 5px;
+    }
+
+    /* .ss {
+        top: 20px;
+        left: -53px;
+    } */
+
+    .listmore {
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .seconddrop{
+        width: 85%;
+        left: 0px;
+        margin: auto;
+        padding: 0px 0px;
+        left: 20px;
+    }
+
+    .desflex {
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        padding-left: 10px;
+        /* overflow: auto; */
+    }
+
+    .desflex2 li {
+        margin-top: -10px !important;
+    }
+}

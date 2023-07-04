@@ -1,0 +1,158 @@
+.Mid_Body {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Mid_banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Mid_Twoitem .Mid_Head {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+}
+
+.Mid_Deal h5 {
+    font-size: 22px;
+}
+
+.Mid_Buttontime {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Mid_Time {
+    width: 67%;
+    height: 47px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #9ea18e;
+    border-radius: 5px;
+    /* padding: 5px 10px; */
+    padding-top: 7px;
+    margin-top: -15px;
+}
+
+.Mid_Time div {
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+    margin-top: -7px;
+}
+
+.Mid_Time div span {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+
+.Mid_Colon {
+    padding-top: 10px;
+}
+
+.Mid_Btn {
+    width: 26.7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Mid_button button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+.Mid_button button:hover {
+    color: white;
+    background-color:#9ea18e;
+}
+
+.Mid_Slide {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+    .Mid_Body {
+        width: 90%;
+    }
+
+    .Mid_Slide {
+        width: 100%;
+    }  
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Mid_Body {
+        width: 93%;
+    }
+
+    .Mid_Slide {
+        width: 100%;
+    }
+
+    .Mid_Buttontime {
+        width: 40%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Mid_Body {
+        width: 90%;
+    }
+
+    .Mid_banner {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Mid_Twoitem,
+    .Mid_Slide {
+        width: 100%;
+    }
+
+    .Mid_Twoitem .Mid_Head {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Mid_Deal,
+    .Mid_Buttontime {
+        width: 100%;
+    }
+
+    .Mid_Time {
+        width: 200px;
+    }
+
+    .Mid_Btn {
+        width: 80px;
+    }
+
+    .Mid_Slide {
+        width: 100%;
+        gap: 1rem;
+    }   
+}

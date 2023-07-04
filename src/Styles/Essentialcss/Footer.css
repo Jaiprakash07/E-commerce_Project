@@ -1,0 +1,127 @@
+.Footer_Back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.Footer_Backgroundimg {
+    /* width: 1900px; */
+    height: 740px;
+    position: fixed;
+    bottom: 120px;
+    left: 0;
+    z-index: -2;
+}
+
+.Footer_Img {
+    width: 100%;
+    height: 100%;
+}
+
+.Footer_Links {
+    height: 427px;
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.Footer_Rights {
+    width: 100%;
+    height: 65px;
+    color: #3c0e0e;
+    padding-top: 20px;
+    padding-left: 380px;
+}
+
+.Footer_Art:hover {
+    color: #968282;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    .Footer_Back,
+    .Footer_Backgroundimg {
+        width: 100%;
+    }
+
+    .Footer_Rights {
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .Footer_Rights .Footer_mid {
+        width: 70%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .Footer_Back,
+    .Footer_Backgroundimg {
+        width: 100%;
+    }
+
+    .Footer_Rights {
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    .Footer_Links {
+        height: 100%;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Footer_Firstform {
+        width: 95%;
+        margin: auto;
+    }
+
+    .Footer_Back {
+        width: 100%;
+    }
+
+    .Footer_Firstform {
+        width: 100%;
+    }
+
+    .Footer_Backgroundimg {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: -2;
+    }
+
+    .Footerform_Img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .Footer_Links {
+        height: 100%;
+    }
+
+    .Footer_Rights {
+        height: 100%;
+        background-color: white;
+        padding: 15px 0px;
+        margin: 0px;
+    }
+
+    .Footer_mid {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,70 @@
+.Brand_Body {
+    width: 138px;
+    height: 80px;
+    margin: 31px;
+    scroll-snap-align: inherit;
+}
+
+.Brand_Image {
+    width: 138px;
+    height: 80px;
+    margin: auto;
+}
+
+.Brand_img {
+    width: 100%;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+
+    .Brand_Body {
+        width: 135px;
+    }
+
+    .Brand_Image {
+        width: 133px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .Brand_Image {
+        width: 120px;
+        height: 70px;
+    }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    
+    .Brand_Body {
+        margin: 20px auto;
+        /* width: 280px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto; */
+    }
+/* 
+    .Brand_Image {
+        width: 150px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+        object-position: center;
+        margin: 0px 100px;
+    }
+
+    .Brand_img {
+        width: 100%;
+        height: 100%;
+        margin: 0px 80px;
+        object-fit: cover;
+        object-position: center;
+    } */
+    
+}

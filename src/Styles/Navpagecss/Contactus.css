@@ -1,0 +1,93 @@
+.Contact_Body {
+    background-color: white;
+}
+
+.Contact_Content {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+}
+
+.Contact_Formdata,
+.Contact_Data {
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: 45px 0px;
+    padding: 15px 0px;
+}
+
+/* .Contact_Name,
+.Contact_Email,
+.Contact_Phone,
+.Contact_Comment {
+    font-size: 14.7px;
+    letter-spacing: 0.05rem;
+    color: #353232;
+    padding-left: 5px;
+    margin-top: 10px;
+} */
+
+.Contact_inputname,
+.Contact_inputemail,
+.Contact_inputnumber,
+.Contact_inputtextarea {
+    width: 100%;
+    font-size: 14px;
+    letter-spacing: 0.05rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin-top: 20px;
+}
+
+.Contact_inputtextarea {
+    height: 105px;
+    resize: none;
+}
+
+.Contact_button {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #9ea18e;
+    margin-top: 30px;
+}
+
+.Contact_button:hover {
+    background-color: black; 
+}
+
+.Contact_Data {
+    padding-left: 60px;
+    /* padding-top: 25px; */
+}
+
+.Contact_Touch {
+    margin-bottom: 25px;
+}
+
+.Contact_Webinfo,
+.Contact_Address,
+.Contact_Phonenumber,
+.Contact_Emailaddress,
+.Contact_Information {
+    color: #555;
+    margin-top: 15px;
+}
+
+.Contact_Spanhome,
+.Contact_Spanphone,
+.Contact_Spanmail,
+.Contact_Spaninfo {
+    color: #6e5d5d;
+    margin-right: 10px;
+}
+
+.Contact_Spaninfo {
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+

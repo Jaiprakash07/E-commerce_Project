@@ -1,0 +1,20 @@
+.Fabrication_Body {
+    background-color: white;
+}
+
+.Fabrication_Maincontent {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.Fabrication_Filter,
+.Fabrication_Rated,
+.Fabrication_Vases {
+    margin-top: 30px;
+}
+
+.Fabrication_Rightcomponent {
+    width: 100%;
+}

@@ -1,0 +1,129 @@
+.Shop_Body {
+    width: 260px;
+    /* height: 421px; */
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    /* margin-left: 350px; */
+    /* margin-top: 50px; */
+}
+
+.Shop_Head {
+    color: #1e1e1e;
+    background-color: #f0f0f0;
+    padding: 3px 15px;
+}
+
+.Shop_heading {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.Shop_Listcontent {
+    padding: 6px;
+}
+
+.Shop_Mainlists,
+.Shop_Midlists {
+    position: relative;
+}
+
+.Design_Add,
+.Design_addarts,
+.Design_addbone,
+.Design_addflower {
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #9ea18e;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.Design_Minus,
+.Design_minusarts,
+.Design_minusbone,
+.Design_minusflower {
+    width: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #9ea18e;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 16px;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+
+.Shop_Midlistcontent,
+.Design_Minus {
+    display: none;
+}
+
+.Design_Add {
+    display: block;
+}
+
+.Shop_Mainlists,
+.Shop_Midlists,
+.Shop_Endlists {
+    font-size: 15.5px;
+    list-style: none;
+    margin: 11.5px 0px;
+    margin-left: -15px;
+}
+
+.Design_Nav,
+.Handprint_Nav,
+.Ikebana_Nav,
+.Stone_Nav,
+.Fabrication_Nav,
+.Literature_Nav,
+.Painting_Nav,
+.Flower_Nav,
+.Glass_Nav,
+.Theater_Nav,
+.Designarts_Nav,
+.Designbone_Nav,
+.Designflower_Nav,
+.Shop_Endnav {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.Design_Nav:hover,
+.Handprint_Nav:hover,
+.Ikebana_Nav:hover,
+.Stone_Nav:hover,
+.Fabrication_Nav:hover,
+.Literature_Nav:hover,
+.Painting_Nav:hover,
+.Flower_Nav:hover,
+.Glass_Nav:hover,
+.Theater_Nav:hover,
+.Designarts_Nav:hover,
+.Designbone_Nav:hover,
+.Designflower_Nav:hover,
+.Shop_Endnav:hover {
+    color: #9ea18e;
+}
+
+
+.Shop_Midlistcontentagain {
+    display: block;
+}
+
+.Shop_Endcontent {
+    display: none;
+}
+
+.Shop_Endcontentarts,
+.Shop_Endcontentbone,
+.Shop_Endcontentflower {
+    display: block;
+}

@@ -1,0 +1,20 @@
+.Design_Body {
+    background-color: white;
+}
+
+.Design_Maincontent {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.Design_Filter,
+.Design_Rated,
+.Design_Vases {
+    margin-top: 30px;
+}
+
+.Design_Rightcomponent {
+    width: 100%;
+}
